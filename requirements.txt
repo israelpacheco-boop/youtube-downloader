@@ -1,0 +1,16 @@
+# Dependencias de la aplicación
+# Instalar con: pip install -r requirements.txt
+
+# Framework web para la interfaz gráfica
+streamlit>=1.32
+
+# Descarga de videos de YouTube
+yt-dlp>=2024.8.6
+
+# ---------------------------------------------------------------------------
+# Requisito del sistema (NO es un paquete pip): FFmpeg debe estar instalado
+# en el sistema operativo y disponible en el PATH.
+#   Ubuntu/Debian : sudo apt install ffmpeg
+#   macOS         : brew install ffmpeg
+#   Windows       : https://ffmpeg.org/download.html
+# ---------------------------------------------------------------------------
